@@ -35,12 +35,12 @@ Samples of badges are included in this repo.
 5) Make an issue on github if you have any problems, comments, or commit if you like to improve it. Thanks.
 
 ## Description of variables
-* x - X location of the name (horizontal), in pixel
-* y - Y location of the name (vertical), in pixel
-* sourcefile - the source layout (model) of badge (without names on it) filename
-* gravity - this makes everything centered
-* stroke - black stroke
-* filename - the source file with names
+* **x** - X location of the name (horizontal), in pixel
+* **y** - Y location of the name (vertical), in pixel
+* **sourcefile** - the source layout (model) of badge (without names on it) filename
+* **gravity** - this makes everything centered
+* **stroke** - black stroke
+* **filename** - the source file with names
 
 ## Badge sample
 ![Photo](https://imgur.com/EfLvSNZ.png)
@@ -52,18 +52,22 @@ Samples of badges are included in this repo.
 * GUI badges constructor (add your logo, text placement etc.)
 
 ## Main project files
-* README.md 	This file
-* b.png 	Source/current badge layout. Will be used by generator
-* good.csv 	Source/current badge texts. Will be used by generator
-* makebadges.sh 	The script of badge generator itself
+**Filename** | **Description**
+| - | - |
+**README.md** 	  | This file
+**b.png** 	      | Source/current badge layout. Will be used by generator
+**good.csv** 	    | Source/current badge texts. Will be used by generator
+**makebadges.sh** |The script of badge generator itself
 
 ## Example badge files
-* jury.png          Example jury badge (source png)
-* participant.png 	Example participant badge (source png)
-* speaker.png 	    Example speaker badge (source png)
-* sponsor.png 	    Example sponsor badge (source png)
-* staff.png 	      Example stuff badge (source png)
-* volunteer.png     Example volunteer badge (source png)
-* sources-badges-xcf.tar.gz   Badge source files in XCF (GIMP) format
-* result_Den\nIvanov\n@fakesnowden.png 	Ready file example
+**Filename** | **Description**
+| - | - |
+**jury.png**          | Example jury badge (source png)
+**participant.png** 	| Example participant badge (source png)
+**speaker.png** 	    | Example speaker badge (source png)
+**sponsor.png** 	    | Example sponsor badge (source png)
+**staff.png** 	      | Example stuff badge (source png)
+**volunteer.png**     | Example volunteer badge (source png)
+**sources-badges-xcf.tar.gz**  | Badge source files in XCF (GIMP) format
+**result_Den\nIvanov\n@fakesnowden.png** |	Ready file example
 
