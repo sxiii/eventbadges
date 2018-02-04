@@ -8,6 +8,12 @@ This script adds name(s) of participants to your badges. It requires imagemagick
 
 ## HOW-TO
 
+0) Install git if you don't already and clone this repo; then enter the directory.
+```
+sudo apt install git # ubuntu
+git clone https://github.com/sxiii/eventbadges
+cd eventbadges
+```
 1) Prepare the TEXT file with name "good.csv" which consist of the following:
 ```
 DenFFFFFIvanovFFFFF@fakesnowden
@@ -44,3 +50,20 @@ Samples of badges are included in this repo.
 * Make the script go inside the dirs and build badges according to categories
 * Do some GUI preview of badges
 * GUI badges constructor (add your logo, text placement etc.)
+
+## Main project files
+* README.md 	This file
+* b.png 	Source/current badge layout. Will be used by generator
+* good.csv 	Source/current badge texts. Will be used by generator
+* makebadges.sh 	The script of badge generator itself
+
+## Example badge files
+* jury.png          Example jury badge (source png)
+* participant.png 	Example participant badge (source png)
+* speaker.png 	    Example speaker badge (source png)
+* sponsor.png 	    Example sponsor badge (source png)
+* staff.png 	      Example stuff badge (source png)
+* volunteer.png     Example volunteer badge (source png)
+* sources-badges-xcf.tar.gz   Badge source files in XCF (GIMP) format
+* result_Den\nIvanov\n@fakesnowden.png 	Ready file example
+
