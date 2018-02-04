@@ -1,6 +1,8 @@
 # Event badges
 This script helps to generate unique badges for visitors of your event fast &amp; convinient (200 badges took a minute)
 
+![Badge](https://imgur.com/1Mf581u.png)
+
 ## Description
 This script adds name(s) of participants to your badges. It requires imagemagick to be installed.
 
