@@ -57,7 +57,7 @@ Samples of badges are included in this repo.
 **(README.md)** 	  | This file
 **((b.png))** 	      | Source/current badge layout. Will be used by generator
 **[good.csv]** 	    | Source/current badge texts. Will be used by generator
-**[makebadges.sh]** |The script of badge generator itself
+**[[ makebadges.sh ]]** |The script of badge generator itself
 
 ## Example badge files
 **Filename** | **Description**
