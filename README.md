@@ -36,6 +36,9 @@ Samples of badges are included in this repo.
 * stroke - black stroke
 * filename - the source file with names
 
+## Badge sample
+![Photo](https://imgur.com/EfLvSNZ.png)
+
 ## Improving the project (plans)
 * Make the source include badge category (jury, participant, speaker, organiser, administration etc) and edit script to support this metadata
 * Make the script go inside the dirs and build badges according to categories
